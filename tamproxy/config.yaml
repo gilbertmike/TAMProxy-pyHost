@@ -129,6 +129,9 @@ devices:
         code:           T       # 0x54
         read_code:      R       # 0x52
         enable_code:    E       # 0x45
+    imu:
+        code:           B
+        quat_code:      Q
 
 packet:
     start_byte:         0xF0
